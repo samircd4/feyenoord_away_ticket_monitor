@@ -1,0 +1,13 @@
+[project]
+name = "feyenoord_away_ticket_monitor"
+version = "0.1.0"
+description = "An automated ticket monitor for Feyenoord away matches (*Uitwedstrijden*). It continuously checks the official Feyenoord ticket shop every few seconds and sends an instant Telegram notification with direct purchase links the moment tickets become available to buy!"
+authors = [
+    { name = "Nick van Dijk" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+]
